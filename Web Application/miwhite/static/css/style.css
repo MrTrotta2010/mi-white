@@ -1,0 +1,49 @@
+h1 {
+	color: #0b5ed7;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h5 {
+	text-align: justify;
+}
+
+body {
+	background-color: lightskyblue;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#cropped-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 20px;
+}
+
+.right-align-div {
+	float: right;
+}
+
+.center-div {
+	background-color: white;
+	margin: auto;
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	padding: 2%;
+	border-radius: 8px;
+	box-shadow: 5px 5px #1a1a1a8a;
+}
